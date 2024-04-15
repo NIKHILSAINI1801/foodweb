@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Logo from "../assets/images/logo.png";
+import Logo from "../assets/images/logo.jpg";
 import { cart } from "../Data";
 
 const Navbar = () => {
@@ -70,7 +70,7 @@ const Navbar = () => {
               </div>
             </div>
           ))}
-          <a href="#" className="btn">
+          <a href="#products" className="btn">
             checkout now
           </a>
         </div>
