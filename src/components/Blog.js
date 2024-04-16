@@ -5,13 +5,13 @@ const Blog = () => {
     <>
       <section class="blogs" id="blogs">
         <h1 class="heading">
-          our <span>blogs</span>
+          our <span>blogs</span>  
         </h1>
 
         <div class="box-container">
           {blog.map((item, index) => (
             <div class="box" key={index * Math.random()}>
-              <div class="image">
+              <div class="image">                                                           
                 <img src={item.img} alt="" />
               </div>
               <div class="content">

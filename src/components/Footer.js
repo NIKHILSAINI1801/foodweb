@@ -21,7 +21,7 @@ const Footer = () => {
           <a href="#">blogs</a>
         </div>
         <div class="credit">
-          created by <span>Nikhil saini,Abul hasan and sahil </span> For college project
+          created by <span>Nikhil saini,Abul hasan and Sahil </span> For college project
         </div>
       </section>
     </>
