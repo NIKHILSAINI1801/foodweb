@@ -14,10 +14,10 @@ const Review = () => {
             <div className="box" key={index * Math.random()}>
               <img src={qouteImg} alt="" className="quote" />
               <p>
-              Beyond the food itself, the impeccable service adds an extra layer of charm to the dining experience. The staff are attentive and knowledgeable, guiding patrons through the menu with enthusiasm and grace.
+             {item.text}
               </p>
               <img src={item.img} className="user" alt="" />
-              <h3>Congress Spokesperson</h3>
+              <h3>{item.name}</h3>
               <div className="stars">
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
